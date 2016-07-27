@@ -33,9 +33,9 @@ class Quiz
 
 	def Quiz.makeHash(q1Result, q2Result, q3Result)
 		resultsHash = Hash.new 
-			resultsHash[q1] = q1Result
-			resultsHash[q2] = q2Result
-			resultsHash[q3] = q3Result
+			resultsHash["q1"] = q1Result
+			resultsHash["q2"] = q2Result
+			resultsHash["q3"] = q3Result
 		return resultsHash
 	end
 end
