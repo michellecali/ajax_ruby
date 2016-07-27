@@ -39,7 +39,7 @@ window.addEventListener("load", function(){
         var a3 = document.getElementById("a3").value;
         var string = [a1, a2, a3];
       
-      check.open("get", "check_answer.php?string=" + string);
+      check.open("get", "/server/" + string);
       check.send();
 
     });
